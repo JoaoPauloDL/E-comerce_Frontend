@@ -41,8 +41,12 @@
     justify-content: center;
     gap: 3px;
     cursor: pointer;
-    padding: 10px 15px;
+    padding: 10px 15px; 
     transition: all 0.3s ease;
+}
+.nav-menu li a {
+    color: inherit;       /* mantém a cor do li */
+    text-decoration: none; /* remove a linha */
 }
 .nav-menu li:hover {
     color: #e74747;
