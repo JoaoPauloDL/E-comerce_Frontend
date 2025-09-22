@@ -16,10 +16,10 @@ const Navbar = () => {
             <p>SHOPPER</p>
         </div>
         <ul className="nav-menu">
-          <li onClick={() => setMenu('shop')} ><Link to="/">Shop</Link> {menu ==="shop"?<hr/>: null}</li>
-          <li onClick={() => setMenu('mens')}><Link to="/mens">MEN</Link>  {menu ==="mens"?<hr/>: null}</li>
-          <li onClick={() => setMenu('womens')}><Link to="/womens">WOMEN</Link>  {menu ==="womens"?<hr/>: null}</li>
-          <li onClick={() => setMenu('kids')}><Link to="/kids">KIDS</Link>  {menu ==="kids"?<hr/>: null}</li>
+          <li onClick={() => setMenu('shop')} ><Link to="/">OFERTAS</Link> {menu ==="shop"?<hr/>: null}</li>
+          <li onClick={() => setMenu('mens')}><Link to="/mens">MASCULINO</Link>  {menu ==="mens"?<hr/>: null}</li>
+          <li onClick={() => setMenu('womens')}><Link to="/womens">FEMININO</Link>  {menu ==="womens"?<hr/>: null}</li>
+          <li onClick={() => setMenu('kids')}><Link to="/kids">INFANTIL</Link>  {menu ==="kids"?<hr/>: null}</li>
         </ul>
         <div className="nav-login-cart">
           <Link to="/login"><button>Login</button></Link>
