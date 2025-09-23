@@ -1,7 +1,7 @@
 .hero {
   height: 100vh;
   display: flex;
-  background: linear-gradient(180deg, #c0bbb4, #e1ffea22 60%);
+  background: #171717;
 }
 
 .hero-left {
@@ -21,7 +21,7 @@
   letter-spacing: 1px;
 }
 .hero-left p {
-  color: #171717;
+  color: #ffffff;
   font-size: 60px;
   font-weight: 600;
   line-height: 1.2;
